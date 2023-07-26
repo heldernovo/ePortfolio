@@ -233,11 +233,12 @@ nav {
   flex: 1;
   display: flex;
   align-items: center;
-  justify-content: center;
+  margin: 0 auto;
 }
 
 .about-me__img {
-  width: 60%;
+  width: 100%;
+  max-width: 500px;
   padding: 28px;
   animation: fade-in 1200ms 800ms backwards;
 }
